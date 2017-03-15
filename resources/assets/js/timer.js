@@ -4,6 +4,8 @@
     var configData;
 
     var sounds = {
+        'AsteroidDepleted': 'Aura: Asteroid Depleted',
+        'NoCharges': 'Aura: No Charges',
         'sound-1': 'Sound 1',
         'sound-2': 'Sound 2',
         'sound-3': 'Sound 3',
@@ -211,8 +213,8 @@
                 ships_list: [],
                 settings: {
                     cargo_limit: 95,
-                    task_sound: 'sound-1',
-                    cargo_full_sound: 'sound-1'
+                    task_sound: 'AsteroidDepleted',
+                    cargo_full_sound: 'NoCharges'
                 },
                 tasks: []
             },
